@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.meuprojeto</groupId>
-	<artifactId>Curso_Spring_Erudio</artifactId>
+	<artifactId>curso-spring-erudio</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Curso_Spring_Erudio</name>
+	<name>curso-spring-erudio</name>
 	<properties>
 		<java.version>17</java.version>
 		<dozer.version>6.4.0</dozer.version>
@@ -112,6 +112,7 @@
 			
 			<groupId>org.testcontainers</groupId>
 			<artifactId>mysql</artifactId>
+			<version>${testcontainers.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
